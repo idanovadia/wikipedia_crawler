@@ -1,7 +1,10 @@
-# wikipedia_crawler
-python 3.6 
+# Wikipedia_crawler
 
-Description:
+## Environment
+  - python 3.6 
+  - jupiter nootbook file
+
+## Description:
 
   this project use to crawling on wikipedia to find:
   
@@ -18,8 +21,15 @@ Description:
     with Julia Roberts, and a histogram which presents the distribution of joint movies (number of co-actors
     per number of joint movies).
 
-Include jupiter nootbook file
 
-Libs :
-  
+# Libs :
+  ```
+  from urllib.request import urlopen
+  from urllib.error import HTTPError
+  from bs4 import BeautifulSoup
+  import re
+  import pandas as pd
+  import matplotlib.pyplot as plt
+
+  ```
 
